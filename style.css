@@ -1,0 +1,116 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Open+Sans:wght@300;400&family=Roboto&display=swap');
+</style>
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    color: rgb(105, 105, 105);
+    /* font-weight: 700; */
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.task-container {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    /* height: 602px; */
+    border: 0.1px rgb(230, 229, 229) solid;
+    
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    height: 177px;
+    padding: 20px;
+    /* line-height: ; */
+    border-bottom: 0.1px rgb(230, 229, 229) solid;
+}
+
+.first-p {
+    font-size: x-large;
+    margin: 10px 0;
+}
+
+.second-p {
+    color: rgb(184, 182, 182);
+    margin: 0;
+}
+
+.task-list p {
+    /* margin-bottom: 5px; */
+}
+
+.task-list input {
+    border: 0;
+    height: 46.5px;
+    border-bottom: 1.5px solid rgb(128, 126, 126);
+    margin-bottom: 17px;
+    font-size: medium;
+    outline: none;
+}
+
+
+
+.task-list .btn {
+    padding: 5px 30px;
+    width: 150px;
+    height: 41px;
+    font-size: 17px;
+    margin: 15px 0 5px 0;
+    color: #fff;
+    border: none;
+    background-color: #26a69a;
+}
+
+.list-item {
+    /* display: flex;
+    flex-direction: column; */
+    padding: 20px;
+
+}
+
+.list-item p {
+    font-size: 24.6px;
+    padding: 0;
+    margin: 12px 0 10px 0;
+}
+
+.list-item ul {
+    list-style: none;
+    margin-top: 7.5px;
+    margin-bottom: 15px;
+    padding: 0;
+    border:  1.5px rgb(230, 229, 229) solid;
+
+}
+
+.list-item li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.5px rgb(230, 229, 229) solid;
+    height: 22px;
+    padding: 10px 20px;
+
+}
+
+.fa-solid {
+    color: orange;
+}
+
+.clr {
+    font-size: 15px;
+    padding: 5px 30px;
+    color: #fff;
+    background-color: #333;
+}
