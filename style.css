@@ -8,7 +8,6 @@
     margin: 0;
     font-family: 'Roboto';
     color: rgb(105, 105, 105);
-    /* font-weight: 700; */
 }
 
 #main-container {
@@ -22,8 +21,7 @@
 .task-container {
     display: flex;
     flex-direction: column;
-    width: 1280px;
-    /* height: 602px; */
+    width: 70%;
     border: 0.1px rgb(230, 229, 229) solid;
     
 }
@@ -33,7 +31,6 @@
     flex-direction: column;
     height: 177px;
     padding: 20px;
-    /* line-height: ; */
     border-bottom: 0.1px rgb(230, 229, 229) solid;
 }
 
@@ -45,10 +42,6 @@
 .second-p {
     color: rgb(184, 182, 182);
     margin: 0;
-}
-
-.task-list p {
-    /* margin-bottom: 5px; */
 }
 
 .task-list input {
@@ -74,8 +67,6 @@
 }
 
 .list-item {
-    /* display: flex;
-    flex-direction: column; */
     padding: 20px;
 
 }
